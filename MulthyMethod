@@ -1,0 +1,13 @@
+public class Main {
+    static void myMethod( String fname,int age ) {
+        System.out.println ( fname + "Cruise is " + age +" years" );
+    }
+
+    public static void main( String[] args ) {
+        myMethod ( "Penelope ", 43 );
+        myMethod ( "Maria  ", 23 );
+        myMethod ( "Gladis  " ,18);
+    }
+}
+
+
